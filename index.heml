@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アマゾンで大成功する！ひみつのビジネス作戦書（小学生向け）</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                        serif: ['"Noto Serif JP"', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#fdfaed',
+                            100: '#fbf3d3',
+                            200: '#f6e5aa',
+                            300: '#f0d379',
+                            400: '#eac052',
+                            500: '#d4af37', /* メタリックゴールド */
+                            600: '#aa8c2c',
+                            700: '#806921',
+                            800: '#554616',
+                            900: '#2b230b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background-color: #d4af37; /* brand-500 (Gold) */
+            margin-top: 8px;
+            border-radius: 2px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.3); /* ゴールドの薄い枠線 */
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased pb-24 bg-gray-50">
+
+    <header class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-16 px-6 lg:px-12 relative overflow-hidden border-b-4 border-brand-500">
+        <div class="absolute top-0 left-0 w-full h-full opacity-20 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-brand-300 via-transparent to-transparent"></div>
+        <div class="max-w-6xl mx-auto relative z-10">
+            <span class="inline-block px-4 py-1 bg-brand-500 text-black rounded-full text-sm font-bold tracking-wider mb-4 border border-brand-400 shadow-[0_0_15px_rgba(212,175,55,0.4)]">こども社長のためのビジネス作戦</span>
+            <h1 class="text-3xl lg:text-5xl font-black leading-tight mb-6 font-serif">
+                アマゾンで大成功する！<br class="hidden lg:block">おばあちゃんとお母さんを助ける<br>
+                <span class="text-brand-400">「ひみつのサプリ」作戦書</span>
+            </h1>
+            <p class="text-lg text-gray-300 max-w-3xl">どうやったら毎月たくさん売れて、しっかり「もうけ（利益）」を出せるのか？「指がいたくてこまっている人」を助ける、最強のビジネスアイデアだよ！</p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 lg:px-8 mt-12 space-y-20">
+
+        <section>
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 section-title mb-8 font-serif">1. なにがおきているの？（世の中の大きな変化）</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-md border border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2">「ガマン」から「なおす！」へ</h3>
+                    <p class="text-gray-600 mb-4">今まで、おばあちゃんやお母さんたちは、年をとって体がいたくなっても「しかたない」とガマンしていました。でも今は、<strong class="text-brand-600">「自分のお金を使って、しっかりなおしたい！」</strong>と考える人が増えています。</p>
+                    <div class="bg-gray-50 rounded-lg p-4 flex items-center justify-between border border-gray-200">
+                        <div class="text-center w-5/12">
+                            <span class="block text-sm text-gray-500">むかし</span>
+                            <span class="font-bold text-gray-700">ガマンする・あきらめる</span>
+                        </div>
+                        <i class="fa-solid fa-arrow-right text-brand-500 w-2/12 text-center text-xl"></i>
+                        <div class="text-center w-5/12">
+                            <span class="block text-sm text-brand-600 font-bold">いま</span>
+                            <span class="font-bold text-gray-900">お金を使って解決する！</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-8 shadow-md border border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-100 pb-2"><i class="fa-solid fa-magnifying-glass text-brand-500 mr-2"></i>インターネットでの探し方</h3>
+                    <p class="text-gray-600 mb-4">大人が使う「フェムケア」みたいなカッコイイ言葉は、実はあまり知られていません。みんながスマホで探しているのは、<strong class="text-brand-600">「自分のホントのなやみ（指がいたい、など）」</strong>をズバリ書いた言葉なんです。</p>
+                    <div class="flex flex-col gap-3">
+                        <div class="flex items-center gap-3 bg-gray-100 text-gray-500 p-3 rounded opacity-70 border border-gray-200">
+                            <i class="fa-solid fa-xmark text-gray-400"></i>
+                            <span>カッコイイけど意味不明：「フェムケア サプリ」</span>
+                        </div>
+                        <div class="flex items-center gap-3 bg-black text-brand-400 p-3 rounded font-bold border border-brand-500 shadow-sm">
+                            <i class="fa-solid fa-check text-brand-500"></i>
+                            <span>わかりやすい！：「指の関節 いたい サプリ」</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 section-title mb-8 font-serif">2. たたかう場所をえらぼう（敵がいなくてお宝がいっぱいの場所）</h2>
+            
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
+                <div class="bg-gradient-to-r from-gray-900 to-black text-white p-6 text-center border-b-2 border-brand-500">
+                    <h3 class="text-2xl font-bold font-serif">「指の関節がいたくなる病気（ヘバーデン結節）」という大チャンス！</h3>
+                    <p class="text-gray-300 mt-2">困っている人はなんと <span class="text-brand-400 font-black text-3xl drop-shadow-md">1,280</span>万人もいるよ！（おばあちゃんの3人に1人）</p>
+                </div>
+                
+                <div class="p-6 overflow-x-auto">
+                    <table class="w-full text-left border-collapse min-w-[600px]">
+                        <thead>
+                            <tr>
+                                <th class="p-4 border-b-2 border-gray-300 bg-gray-50 text-gray-500 w-1/4">くらべてみよう！</th>
+                                <th class="p-4 border-b-2 border-gray-300 bg-gray-100 text-gray-600 w-3/8"><i class="fa-solid fa-water text-gray-400 mr-2"></i>ヒザやコシのサプリ<br><span class="text-xs font-normal text-gray-500">（敵がいっぱいの場所：レッドオーシャン）</span></th>
+                                <th class="p-4 border-b-2 border-brand-500 bg-brand-50 text-gray-900 font-bold w-3/8"><i class="fa-solid fa-gem text-brand-500 mr-2"></i>ぼくたちの「指」のサプリ<br><span class="text-xs font-normal text-brand-600">（お宝がいっぱいの場所：ブルーオーシャン）</span></th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-sm md:text-base">
+                            <tr class="border-b border-gray-100">
+                                <td class="p-4 font-bold text-gray-700">使ってくれる人</td>
+                                <td class="p-4 text-gray-500">おじいちゃん・おばあちゃんみんな</td>
+                                <td class="p-4 font-bold text-gray-900 bg-brand-50/50">40代〜60代の女の人</td>
+                            </tr>
+                            <tr class="border-b border-gray-100">
+                                <td class="p-4 font-bold text-gray-700">どんなことで困ってる？</td>
+                                <td class="p-4 text-gray-500">歩くのがつらい、階段がきつい</td>
+                                <td class="p-4 font-bold text-gray-900 bg-brand-50/50">ペットボトルがあけられない、指が曲がって恥ずかしい</td>
+                            </tr>
+                            <tr class="border-b border-gray-100">
+                                <td class="p-4 font-bold text-gray-700">ライバル（敵のつよさ）</td>
+                                <td class="p-4 text-gray-500"><span class="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs font-bold">超キケン</span> 大きな会社がいっぱい！</td>
+                                <td class="p-4 font-bold text-gray-900 bg-brand-50/50"><span class="bg-black text-brand-400 px-2 py-1 rounded text-xs font-bold">ラッキー</span> 誰も専用のサプリを作ってない！</td>
+                            </tr>
+                            <tr class="border-b border-gray-100">
+                                <td class="p-4 font-bold text-gray-700">なにがうれしい？</td>
+                                <td class="p-4 text-gray-500">歩けるようになること</td>
+                                <td class="p-4 font-bold text-gray-900 bg-brand-50/50">指のいたみが消えて、きれいな手を人に見せられること</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 section-title mb-8 font-serif">3. ひみつの３つのパワー（すごい材料の組み合わせ）</h2>
+            <p class="mb-8 text-gray-600 text-lg">ほかの会社にマネされないように、特別な３つの材料をまぜて「最強のサプリ」を作ります。</p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- 成分1 (Gold) -->
+                <div class="bg-white rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] p-6 relative overflow-hidden border-t-4 border-brand-500">
+                    <div class="absolute -right-6 -top-6 text-brand-100 opacity-50 text-8xl"><i class="fa-solid fa-crown"></i></div>
+                    <span class="inline-block bg-black text-brand-400 px-3 py-1 rounded-full text-xs font-bold mb-3 relative z-10 border border-brand-500">主役・おそうじ係</span>
+                    <h3 class="text-2xl font-black text-gray-900 mb-2 relative z-10">ウロリチンA</h3>
+                    <p class="text-sm text-brand-600 mb-4 font-bold relative z-10">（日本で初めてみとめられたスゴイ成分）</p>
+                    <ul class="text-gray-600 text-sm space-y-2 relative z-10 list-disc pl-4">
+                        <li>体の中の「細胞のゴミ」を食べて、ピカピカにしてくれる魔法のパワー！</li>
+                        <li>自分の体の中では作りにくいから、<strong class="text-gray-900">「サプリで飲むしかない！」</strong>とみんなが買ってくれます。</li>
+                        <li>指だけじゃなくて、お肌や髪の毛までキレイになります。</li>
+                    </ul>
+                </div>
+
+                <!-- 成分2 (Silver/Gray) -->
+                <div class="bg-white rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] p-6 relative overflow-hidden border-t-4 border-gray-400">
+                    <div class="absolute -right-6 -top-6 text-gray-100 opacity-50 text-8xl"><i class="fa-solid fa-shield-halved"></i></div>
+                    <span class="inline-block bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-xs font-bold mb-3 relative z-10 border border-gray-300">守る・クッション係</span>
+                    <h3 class="text-2xl font-black text-gray-900 mb-2 relative z-10">プロテオグリカン</h3>
+                    <p class="text-sm text-gray-500 mb-4 font-bold relative z-10">（みんなが大好きな成分）</p>
+                    <ul class="text-gray-600 text-sm space-y-2 relative z-10 list-disc pl-4">
+                        <li>指の骨と骨の間に入って、<strong class="text-gray-900">「フカフカのクッション」</strong>になってくれます。</li>
+                        <li>これで、指を曲げたときの「イタッ！」というのを防ぎます。</li>
+                        <li>お水をごくごくためこむ力があるので、手のシワシワも防いでくれます。</li>
+                    </ul>
+                </div>
+
+                <!-- 成分3 (Bronze/Black) -->
+                <div class="bg-white rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] p-6 relative overflow-hidden border-t-4 border-gray-800">
+                    <div class="absolute -right-6 -top-6 text-gray-100 opacity-50 text-8xl"><i class="fa-solid fa-seedling"></i></div>
+                    <span class="inline-block bg-gray-800 text-white px-3 py-1 rounded-full text-xs font-bold mb-3 relative z-10 border border-gray-900">安心・おまもり係</span>
+                    <h3 class="text-2xl font-black text-gray-900 mb-2 relative z-10">エクオール</h3>
+                    <p class="text-sm text-gray-500 mb-4 font-bold relative z-10">（女の人がホッとする成分）</p>
+                    <ul class="text-gray-600 text-sm space-y-2 relative z-10 list-disc pl-4">
+                        <li>「これを飲んでおけば、女の人は元気になる」とみんなが知っている安心成分。</li>
+                        <li>これだけだと他の会社と同じになっちゃうから、ひみつのおまもりとして少しだけ入れます。</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 section-title mb-8 font-serif">4. やさしいデザイン（入れ物の工夫）</h2>
+            <div class="bg-white p-6 md:p-8 rounded-2xl border border-gray-200 shadow-md flex flex-col md:flex-row gap-8 items-center relative overflow-hidden">
+                <!-- 装飾背景 -->
+                <div class="absolute top-0 right-0 w-64 h-64 bg-brand-50 rounded-bl-full -z-10 opacity-50"></div>
+                
+                <div class="w-full md:w-1/3 flex justify-center z-10">
+                    <div class="relative w-40 h-40 bg-black rounded-full flex items-center justify-center shadow-lg border-4 border-brand-500">
+                        <i class="fa-solid fa-hands-holding-circle text-6xl text-brand-400"></i>
+                    </div>
+                </div>
+                <div class="w-full md:w-2/3 z-10">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">かたいフタの「ビン」は絶対にダメ！</h3>
+                    <p class="text-gray-600 mb-4">指がいたくてなやんでいる人に、チカラがいる「かたいビンのフタ」や「あけにくい袋」は、いじわるになっちゃいます。</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-4 rounded-lg shadow-sm border border-gray-200">
+                            <h4 class="font-bold text-gray-900 mb-1"><i class="fa-solid fa-droplet text-brand-500 mr-2"></i>サプリのカタチ</h4>
+                            <p class="text-sm text-gray-600">お水がなくても、お口の中ですぐにフワッととける粉（こな）にしよう！つらくないよ。</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg shadow-sm border border-gray-200">
+                            <h4 class="font-bold text-gray-900 mb-1"><i class="fa-solid fa-box-open text-brand-500 mr-2"></i>入れ物（袋）</h4>
+                            <p class="text-sm text-gray-600">おばあちゃんの弱いチカラでも「スッ」と手でカンタンに切れる、魔法の袋にするよ！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 section-title mb-8 font-serif">5. お金のけいさん（どうやってもうけるの？）</h2>
+            <p class="mb-6 text-gray-600">安売りはしません！アマゾンにお店代を払っても、ちゃんと利益（もうけ）が出るかしこいビジネスをします。</p>
+
+            <div class="bg-white border border-gray-200 rounded-2xl shadow-lg p-6 lg:p-10 relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-2 h-full bg-brand-500"></div>
+                
+                <div class="text-center mb-8">
+                    <p class="text-gray-500 font-bold mb-1">売るねだん（1ヶ月分）</p>
+                    <div class="text-5xl font-black text-gray-900 font-serif">¥4,980 <span class="text-lg font-normal text-gray-500">(税込)</span></div>
+                    <p class="text-sm text-brand-600 font-bold mt-2 tracking-wide">作戦：月に「201個」売れたら、売上100万円達成だ！</p>
+                </div>
+
+                <!-- ユニットエコノミクスのバーチャート -->
+                <div class="relative h-16 w-full rounded-full overflow-hidden flex shadow-inner mb-6 border border-gray-300">
+                    <div class="h-full bg-gray-300 flex items-center justify-center text-xs font-bold text-gray-700 w-[25%]" title="作るお金 (25%)">作るお金 25%</div>
+                    <div class="h-full bg-gray-400 flex items-center justify-center text-xs font-bold text-gray-800 w-[15%]" title="アマゾンに払うお店代 (15%)">お店代 15%</div>
+                    <div class="h-full bg-gray-500 flex items-center justify-center text-xs font-bold text-white w-[9%]" title="荷物を送るお金 (9%)">送るお金 9%</div>
+                    <div class="h-full bg-gray-700 flex items-center justify-center text-xs font-bold text-gray-200 w-[15%]" title="宣伝するお金（広告） (15%)">宣伝代 15%</div>
+                    <div class="h-full bg-brand-500 flex items-center justify-center text-sm font-black text-black w-[35.9%]" title="ぼくたちの利益 (35.9%)">もうけ 35.9% (¥1,791)</div>
+                </div>
+
+                <!-- 詳細表 -->
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4 text-center mt-4">
+                    <div class="p-3 bg-gray-50 rounded-lg border border-gray-200">
+                        <div class="text-xs text-gray-500 mb-1">サプリを作るお金</div>
+                        <div class="font-bold text-gray-700">¥1,245</div>
+                    </div>
+                    <div class="p-3 bg-gray-50 rounded-lg border border-gray-200">
+                        <div class="text-xs text-gray-500 mb-1">アマゾンのお店代</div>
+                        <div class="font-bold text-gray-700">¥747</div>
+                    </div>
+                    <div class="p-3 bg-gray-50 rounded-lg border border-gray-200">
+                        <div class="text-xs text-gray-500 mb-1">荷物を送るお金</div>
+                        <div class="font-bold text-gray-700">約¥450</div>
+                    </div>
+                    <div class="p-3 bg-gray-50 rounded-lg border border-gray-200">
+                        <div class="text-xs text-gray-500 mb-1">宣伝するお金</div>
+                        <div class="font-bold text-gray-700">¥747</div>
+                    </div>
+                    <div class="p-3 bg-black rounded-lg border border-brand-500 shadow-[0_0_15px_rgba(212,175,55,0.2)] md:col-span-1 col-span-2">
+                        <div class="text-xs text-brand-400 font-bold mb-1">1個売れたらの利益</div>
+                        <div class="font-black text-brand-500 text-xl">¥1,791</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 section-title mb-8 font-serif">6. お店にお客さんを呼ぶ魔法（キーワード作戦）</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- キーワード戦略 -->
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-4 border-l-4 border-brand-500 pl-3">ピッタリの言葉（キーワード）を用意する</h3>
+                    <p class="text-sm text-gray-600 mb-6">アマゾンで検索するときに、お客さんが打ち込む言葉を予想して、しっかりセットしておきます。</p>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
+                            <div class="text-xs font-bold text-gray-800 mb-2 border-b border-gray-100 pb-1"><i class="fa-solid fa-fire text-brand-500 mr-1"></i>今すぐ助けてほしい人が検索する言葉</div>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm border border-gray-200">ヘバーデン結節 サプリ</span>
+                                <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm border border-gray-200">ばね指 サプリ</span>
+                                <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm border border-gray-200">指 関節 痛み 女性</span>
+                                <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm border border-gray-200">更年期 手 こわばる</span>
+                            </div>
+                        </div>
+                        <div class="bg-black p-4 rounded-lg border border-brand-500 shadow-sm">
+                            <div class="text-xs font-bold text-brand-400 mb-2 border-b border-gray-800 pb-1"><i class="fa-solid fa-flask text-brand-500 mr-1"></i>くわしい人が検索する言葉</div>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="bg-gray-800 text-brand-100 px-2 py-1 rounded text-sm border border-gray-700">ウロリチンa サプリ</span>
+                                <span class="bg-gray-800 text-brand-100 px-2 py-1 rounded text-sm border border-gray-700">オートファジー サプリ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- A+コンテンツ -->
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-4 border-l-4 border-brand-500 pl-3">写真と文章で「これだ！」と思わせる</h3>
+                    <div class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm h-full relative overflow-hidden">
+                        <div class="absolute -right-4 -bottom-4 text-gray-100 text-9xl z-0"><i class="fa-brands fa-amazon"></i></div>
+                        <ul class="relative z-10 space-y-5">
+                            <li class="flex items-start gap-3">
+                                <div class="bg-black text-brand-500 rounded-full w-8 h-8 flex items-center justify-center shrink-0 font-bold border border-brand-500">1</div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900 text-sm">「日本で初めて！」のマークを見せる</h4>
+                                    <p class="text-xs text-gray-600 mt-1">ウロリチンAが「日本で初めてみとめられたよ」というカッコイイマークを見せて、「他のサプリとはレベルがちがう！」と思ってもらう。</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <div class="bg-black text-brand-500 rounded-full w-8 h-8 flex items-center justify-center shrink-0 font-bold border border-brand-500">2</div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900 text-sm">「わかる〜！」と言わせる写真</h4>
+                                    <p class="text-xs text-gray-600 mt-1">「ペットボトルがあけられない」「朝、指が曲がりにくい」という写真を使って、「私の気持ち、わかってくれてる！」と思わせる。</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 section-title mb-8 font-serif">7. ずっとファンでいてもらう大作戦</h2>
+            <p class="mb-6 text-gray-600">ビジネスでは、何回も買ってくれる「リピーター」が一番大事！毎月買ってもらうために、サプリと一緒に楽しいおまけを箱に入れます。</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white border border-gray-200 p-6 rounded-xl shadow-sm text-center flex flex-col items-center hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-gray-50 text-gray-800 rounded-full flex items-center justify-center text-2xl mb-4 border border-gray-200">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">ひみつの説明本</h3>
+                    <p class="text-sm text-gray-600">「どうしてこのサプリを飲み続けないといけないのか？」を、マンガみたいにわかりやすく教える本を入れるよ。</p>
+                </div>
+                <div class="bg-white border border-brand-200 p-6 rounded-xl shadow-sm text-center flex flex-col items-center hover:shadow-md transition-shadow relative">
+                    <div class="absolute top-0 right-0 w-0 h-0 border-t-[30px] border-r-[30px] border-t-brand-500 border-r-transparent rounded-tr-xl"></div>
+                    <div class="w-16 h-16 bg-brand-50 text-brand-600 rounded-full flex items-center justify-center text-2xl mb-4 border border-brand-200">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">美容のオマケ効果をアピール</h3>
+                    <p class="text-sm text-gray-600">「指だけじゃなくて、実はお肌や髪の毛もキレイになるよ！」と教えてあげて、やめられなくしちゃう！</p>
+                </div>
+                <div class="bg-white border border-gray-200 p-6 rounded-xl shadow-sm text-center flex flex-col items-center hover:shadow-md transition-shadow">
+                    <div class="w-16 h-16 bg-gray-50 text-gray-800 rounded-full flex items-center justify-center text-2xl mb-4 border border-gray-200">
+                        <i class="fa-regular fa-calendar-check"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">できたねシールカレンダー</h3>
+                    <p class="text-sm text-gray-600">毎日飲んだらチェックするカレンダーを入れて、「ちょっと痛くなくなった！」という喜びを見えるようにするよ。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white p-8 lg:p-12 rounded-3xl shadow-2xl border border-gray-800 relative overflow-hidden">
+            <!-- ゴージャスな背景装飾 -->
+            <div class="absolute -right-20 -top-20 w-64 h-64 bg-brand-500 opacity-10 rounded-full blur-3xl"></div>
+            <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-brand-300 opacity-10 rounded-full blur-3xl"></div>
+
+            <h2 class="text-2xl font-bold mb-6 flex items-center gap-3 relative z-10 font-serif"><i class="fa-solid fa-flag-checkered text-brand-500"></i>まとめ：これからの夢！</h2>
+            <p class="text-gray-300 mb-6 leading-relaxed relative z-10">
+                このビジネス作戦は、<strong class="text-brand-400 font-bold">「ライバルがいない場所」「スゴイ材料」「しっかりもうかる」「マネされない工夫」</strong>がぜんぶそろった、最強の作戦です。困っているおばあちゃんやお母さんを助けながら、会社も大きくなれます！
+            </p>
+            <div class="bg-gray-800/80 p-6 rounded-xl border border-brand-500/30 relative z-10 backdrop-blur-sm">
+                <h3 class="font-bold text-brand-500 mb-3 text-lg flex items-center"><i class="fa-solid fa-rocket mr-2"></i>次のステップ（もっと大きくするぞ！）</h3>
+                <p class="text-sm text-gray-300 leading-relaxed">
+                    アマゾンで大成功して有名になったら、次は「大きな会社」の社長さんにお願いに行きます。そして、<strong class="text-white bg-black px-1 rounded">会社で働いている女の人たちみんなに、会社のお金でこのサプリを配ってもらう（福利厚生）</strong>ようにすれば、もっともっとスゴイことになります！
+                </p>
+            </div>
+        </section>
+
+        <section class="mt-16 pt-8 border-t border-gray-300">
+            <h3 class="text-lg font-bold text-gray-700 mb-4 font-serif"><i class="fa-solid fa-link mr-2 text-gray-400"></i>大人が調べたむずかしい資料のリンク（引用文献）</h3>
+            <ul class="space-y-3 text-sm text-gray-500 break-all">
+                <li>フェムテック・フェムケア市場、ブームは一巡も803億円へ拡大 ... <br>
+                    <a href="https://womanslabo.com/market-260119-3" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://womanslabo.com/market-260119-3</a>
+                </li>
+                <li>フェムケア市場の拡大は50代以上の中高年層がけん引 - ウーマンズラボ <br>
+                    <a href="https://womanslabo.com/marketing-research-250225-1" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://womanslabo.com/marketing-research-250225-1</a>
+                </li>
+                <li>Untitled - 毎日メディアサービス山口 <br>
+                    <a href="https://mainichi-msy.co.jp/wp-content/uploads/2023/09/r5_0930_shimonoseki.pdf" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://mainichi-msy.co.jp/wp-content/uploads/2023/09/r5_0930_shimonoseki.pdf</a>
+                </li>
+                <li>日本初、機能性食品素材ザクロ由来ウロリチンA「ウロリッチ®」が ... <br>
+                    <a href="https://www.daicel.com/news/2024/20240208_934.html" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://www.daicel.com/news/2024/20240208_934.html</a>
+                </li>
+                <li>食品グレード・ウロリチンA市場 | 市場規模 分析 予測 2026-2032年 【市場調査レポート】 <br>
+                    <a href="https://www.gii.co.jp/report/ires1923846-food-grade-urolithin-market-by-application-form.html" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://www.gii.co.jp/report/ires1923846-food-grade-urolithin-market-by-application-form.html</a>
+                </li>
+                <li>特集【プロテオグリカン】市場規模400億円突破、快進撃続く 健食・化粧品ともに好調、海外展開も加速 | 健康産業新聞 <br>
+                    <a href="https://www.kenko-media.com/health_idst/archives/12177" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://www.kenko-media.com/health_idst/archives/12177</a>
+                </li>
+                <li>【2025最新】エクオールサプリおすすめ商品20選。選び方やこんな人におすすめなどを徹底解説 <br>
+                    <a href="https://www.25ans.jp/beauty/beauty-other/a65342184/equol-250728/" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://www.25ans.jp/beauty/beauty-other/a65342184/equol-250728/</a>
+                </li>
+                <li>Amazon出品サービスの手数料 <br>
+                    <a href="https://sellercentral.amazon.com/help/hub/reference/external/G200336920?mons_sel_locale=ja_JP&pageName=US%3ASC%3ATrim-help%2Fhub%2Freference%2Fexternal%2FG200336920" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://sellercentral.amazon.com/help/hub/reference/external/G200336920?mons_sel_locale=ja_JP&pageName=US%3ASC%3ATrim-help%2Fhub%2Freference%2Fexternal%2FG200336920</a>
+                </li>
+                <li>手数料カテゴリー「ビューティ、ヘルスケア&パーソナルケア」の統合 - 2025年10月31日 <br>
+                    <a href="https://sellercentral.amazon.co.jp/gp/help/external/G5AEE6YFYSDVRTGF" target="_blank" class="text-brand-600 hover:text-brand-500 hover:underline transition-colors">https://sellercentral.amazon.co.jp/gp/help/external/G5AEE6YFYSDVRTGF</a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- 右下固定ダウンロードボタン -->
+    <button id="download-btn" onclick="downloadHTML()" class="fixed bottom-6 right-6 z-50 bg-brand-500 hover:bg-brand-400 text-black font-bold py-3 px-6 rounded-full shadow-[0_4px_15px_rgba(212,175,55,0.4)] border border-brand-300 transition-transform hover:scale-105 flex items-center gap-2">
+        <i class="fa-solid fa-download"></i>
+        <span>HTMLをダウンロード</span>
+    </button>
+
+    <script>
+        function downloadHTML() {
+            // 現在のHTMLコンテンツを取得
+            const htmlContent = document.documentElement.outerHTML;
+            
+            // DOMParserを使用してHTMLをパースし、操作用のDOMを作成
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(htmlContent, 'text/html');
+            
+            // コピーしたDOMからダウンロードボタン自身を削除
+            const btnToRemove = doc.getElementById('download-btn');
+            if (btnToRemove) {
+                btnToRemove.remove();
+            }
+
+            // DOCTYPEを追加して完全なHTML文字列を再構築
+            const finalHTML = '<!DOCTYPE html>\n' + doc.documentElement.outerHTML;
+            
+            // Blobを作成してダウンロードリンクを発火
+            const blob = new Blob([finalHTML], { type: 'text/html;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'amazon_strategy_report_kids.html';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>
